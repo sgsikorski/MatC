@@ -1,0 +1,5 @@
+Compiler argument to enable strict type checking
+#if strict
+    int * float => Error
+#else 
+    int * float => Float 
